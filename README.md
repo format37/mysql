@@ -1,4 +1,5 @@
-# mysql server docker installation
+# docker mysql server
+#### Installation
 ```
 git clone https://github.com/format37/mysql.git
 cd mysql
