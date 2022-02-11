@@ -2,6 +2,10 @@ version: '3.8'
 services:
   service:
     build: service
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     restart: always
     network_mode: "host"
     volumes:
